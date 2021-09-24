@@ -1,0 +1,169 @@
+body{
+    margin:0;
+    padding:0;
+    min-height: 100vh;
+    background: #fff;
+}
+@font-face {
+    font-family:"Gilroy-ExtraBold";
+    src: url(../EM-Gilroy-font/Gilroy-ExtraBold.ttf);
+}
+@font-face {
+    font-family:'Gilroy-Light' ;
+    src:url(../EM-Gilroy-font/Gilroy-Light.ttf);  
+} 
+@font-face {
+    font-family:'Gilroy-Regular' ;
+    src:url(../EM-Gilroy-font/Gilroy-Regular.ttf);  
+} 
+@font-face {
+    font-family:'Gilroy-Bold' ;
+    src:url(../EM-Gilroy-font/Gilroy-Bold.ttf);  
+} 
+.container3{
+    width:85vw;
+    height:auto;
+    overflow: hidden; 
+    display: flex;
+    margin: auto;
+}
+.c3box{
+    width:50%;
+    background: #fff;
+    overflow: hidden;
+}
+.container3_first{
+    background: url(../projfile.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container3_second {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.container3_second .c3s{
+    width:100%;
+    height:auto; 
+    margin: 1vw 0;  
+}
+.c3s i{
+    font-size: 2.5vw;
+    padding-right: 1vw;    
+    color:#4FAAD9;
+}
+.c3s h5{
+    margin:0;
+    font-size: 1.4vw;
+    font-family:'Gilroy-ExtraBold';
+}
+.c3s p{
+    width:90%;
+    position: relative;
+    font-family:'Gilroy-Regular' ;
+    font-size: 1.3vw;
+    line-height: 2.2vw;
+    margin: 0;
+}
+/* ********************************************** */
+.Container2{
+    width:85vw;
+    margin: auto;
+    overflow: hidden;
+    height:auto; 
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.boxes{
+    width:45%;
+    height:100%;
+    padding: 2vw 1vw;
+}
+.b2 h3{
+    color:white;
+}
+.boxes h3{
+    font-size: 1.5vw;
+    font-family: 'Gilroy-ExtraBold';
+    padding:0;
+    margin:0.5vw 0;
+}
+.boxes p{
+    width:95%;
+    font-family:'Gilroy-Light';
+    font-size:1.3vw;
+    line-height: 2.1vw;
+    margin: 0;
+    padding: 0;
+}
+/* **************************************************************************** */
+.fourthsection{
+    position: relative;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+    background:url(../image/4back.jpg);
+}
+.fourthsection .contain{
+    width:80%;
+    height:auto;
+    padding: 2vw 0;
+    margin-bottom: 9vw;
+    justify-content: space-around;
+    flex-direction: column;
+    z-index: 100000;
+}
+.overlay{
+   width:100%;
+   height:100%;
+   background: #03b4f5;
+   position: absolute;
+   opacity: 0.8;
+}
+.fourthsection .contain h1{
+    font-size: 3.5vw;
+    font-family: 'Gilroy-ExtraBold';
+    color:white;
+}
+.fourthsection .contain{
+    text-align: center;
+}
+.fourthsection .contain h3{
+    font-family: 'Gilroy-Bold';
+    font-size: 1.7vw;
+    color:white;
+}
+.fourthsection .contain button{
+    font-size:2vw;
+    padding:1vw 5vw;
+    margin-top: 1vw;
+    font-family:'Gilroy-Bold';
+    border:none;
+    outline:none;
+    background-color:#153980;
+    color: white;
+}
+.map{
+    width:85vw;
+    overflow: hidden;
+    height: auto;
+    margin: auto;
+}
+.map img{
+    width:100%;
+    height:100%;
+}
+.bigimg{
+    width:85vw;
+    overflow: hidden;
+    height: auto;
+    margin: auto;
+}
+.bigimg img{
+    width:100%;
+    height:100%;
+}
