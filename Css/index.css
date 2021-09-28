@@ -267,7 +267,7 @@ header .head p{
     outline: none;
     background: #7287AE;
 }
-@media (max-width:900px){
+@media only screen and (max-width: 900px){
     body{
         max-width: 900px;
     }
