@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    max-width:900px;
+    max-width:1400px;
     min-height: 100vh;
     margin: auto;
     font-family: sans-serif;
     background-color: #e3ecc2;
 }
 html{
-    font-size: 10px;;
+    font-size: 10px;
 }
 h1,h2,h3,h4,h5,h6,a,p{
     color:#fff;
@@ -266,4 +266,12 @@ header .head p{
     border:none;
     outline: none;
     background: #7287AE;
+}
+@media (max-width:900px){
+    body{
+        max-width: 900px;
+    }
+    html{
+        font-size: 20px;
+    }
 }
