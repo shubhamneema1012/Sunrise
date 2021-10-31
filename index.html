@@ -2,117 +2,83 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="./Css/index.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./Css/bootstrap.min.css">
+  <!-- CSS only -->
+  <title>Document</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div class="Logo">
-                <span>
-                    <h1>YOUR LOGO</h1>
-                </span>
+  <!-- *****************************NAVBAR************************************ -->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-11 mx-auto">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">SUNRISE</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Enquiry.html">Enquiry</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact Us</a>
+                </li>
+              </ul>
             </div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our Menu</a></li>
-                    <li><a href="#">Promo</a></li>
-                    <li><a href="#">Order</a></li>
-                </ul>
-            </div>
+          </div>
         </nav>
-        <div class="head">
-            <h1>Healthy Food<br> Restaurent</h1>
-            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit.</p>
-        </div>
-    </header>
-    <section class="Popularmenu">
-        <h2 class="pmenu">POPULAR MENU</h2>
-        <div class="options">
-            <div class="option1">
-                <img src="./images/opt1.jpg" alt="Food">
-                <h3>Noodles</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-                <h2>$13</h2>
-            </div>
-            <div class="option1">
-                <img src="./images/opt1.jpg" alt="Food">
-                <h3>Noodles</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-                <h2>$13</h2>
-            </div>
-            <div class="option1">
-                <img src="./images/opt1.jpg" alt="Food">
-                <h3>Noodles</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
-                <h2>$13</h2>
-            </div>
-        </div>
-        <div class="pmenu_btn">
-            <button>Show More</button>
-        </div>
-    </section>
-    <section class="discount">
-        <div class="disc discount_image">
-            <img src="./images/discount.jpg" alt="discount">
-        </div>
-        <div class="disc discount_info">
-            <h1>Discount up top<br> 50% All Menu</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur<br>
-                adipisicing elit. Nemo dolore odit<br>
-                minus ipsum rem nulla error Lorem<br>
-                ipsum dolor sit amet Lorem, ipsum.</p>
-            <button>Read More</button>
-        </div>
-    </section>
-    <section class="discount ">
-        <div class="disc discount_info ok">
-            <h1>January's Promo:<br> Buy 1 Get 1 free</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur<br>
-                adipisicing elit. Nemo dolore odit<br>
-                minus ipsum rem nulla error Lorem<br>
-                ipsum dolor sit amet Lorem, ipsum.</p>
-            <button>Read More</button>
-        </div>
-        <div class="disc discount_image">
-            <img src="./images/discount.jpg" alt="discount">
-        </div>
-    </section>
-    <section class="Orders">
-        <div class="orderhead">
-            <h1>How TO Order</h1>
-        </div>
-        <div class="ord">
-            <div class="order_op1">
-                <span>01</span>
-                <h2>Order</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nihil iste quae voluptates
-                    incidunt ut.</p>
-            </div>
-            <div class="order_op1">
-                <span>02</span>
-                <h2>Choose Menu</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nihil iste quae voluptates
-                    incidunt ut.</p>
-            </div>
-            <div class="order_op1">
-                <span>03</span>
-                <h2>Delivery</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt nihil iste quae voluptates
-                    incidunt ut.</p>
-            </div>
-        </div>
-    </section>
-    <section class="freedeal">
-        <h1>Free Delivery</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium unde ipsam sequi non possimus! Sapiente earum magni sit, enim, rem unde, beatae odio est.</p>
-        <button>GET VOUCHER</button>
-    </section>
+      </div>
+    </div>
+  </div>
+  <!-- ********************************************SLIDER**************************** -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="..." alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="..." alt="Second slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="..." alt="Third slide">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="./Js/bootstrap.min.js">
+  </script>
 </body>
 
 </html>
